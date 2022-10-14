@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Prob2 {
+public class Prob1 {
     // method for statement 1 with two parameter
     public static void q1(String str1,String str2) {
         
