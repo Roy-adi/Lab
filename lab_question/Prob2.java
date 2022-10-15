@@ -1,8 +1,8 @@
 import java.util.Scanner;
 
 public class Prob2 {
-    // method for statement 1 with two parameter
-    public static void statement1(String str1,String str2) {
+   
+    public static void q1(String str1,String str2) {
         // print lengths of two string value
         System.out.println("Length of string 1: "+str1.length()+" and string 2: "+str2.length());
         // calculate sum of lengths of two string value
@@ -10,7 +10,7 @@ public class Prob2 {
         
     } 
 
-public static void statement3(String str1,String str2) {
+public static void q2(String str1,String str2) {
     // print capitalized first latter of two string value
     System.out.println("Capitalized of two strings: ");
     System.out.println(str1.substring(0, 1).toUpperCase() + str1.substring(1));
@@ -28,8 +28,8 @@ public static void main(String[] args) {
     String str2 = scan.next();
     // called all methods
    
-    statement1(str1,str2);
+    q1(str1,str2);
     
-    statement3(str1,str2);
+    q2(str1,str2);
 }
 }
